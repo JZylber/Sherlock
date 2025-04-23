@@ -21,6 +21,14 @@ Si se animan, vayan tratando de adivinar que está roto de los programas incorre
 
 En la carpeta "Parte II", están los 6 programas y un archivo de tests. Ejecutar los tests con los 6 programas. Para probar los distintos programas, tienen que modificar la variable programa al principio del archivo de tests. Lean los errores que tira. ¿Pueden determinar el programa correcto? ¿En qué fallan los incorrectos?
 
+Para instalar pytest, pueden instalarlo con pip:
+
+```pip install --user pytest```
+
+Para correr el archivo de tests, desde la terminal y en la carpeta donde se encuentran los archivos, pueden hacer:
+
+```python -m pytest test_sherlock.py```
+
 **NO AVANZAR A LA SIGUIENTE PARTE HASTA NO PONER EN COMÚN JUNTO AL DOCENTE.**
 
 ## Parte III
