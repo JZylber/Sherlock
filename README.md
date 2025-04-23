@@ -2,6 +2,8 @@
 
 ## ¿Cómo correr los programas?
 
+Para correr los programas, desde una powershell (obviamente abierta en la carpeta donde se encuentran los archivos), pueden correr los programas haciendo ./&lt;nombre_programa&gt; &lt;numero_tarjeta&gt;. Por ejemplo, `./programa3.exe 42` corre al programa 3 con el número de tarjeta de crédito 42.
+
 ## Parte I
 
 Hay 6 programas en la carpeta "Parte I", de los cuales sólo 1 de los 6 programas es correcto. Para determinar cual, prueben los programas con distintos números de tarjetas de crédito. Registren las pruebas en el archivo `Registro de Pruebas.xlsx`, de la siguiente forma:
