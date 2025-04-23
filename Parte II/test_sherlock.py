@@ -1,7 +1,7 @@
 import subprocess
 import pytest
 
-programa = "./programa7"
+programa = "./programa1"
 
 def run_validator(validator: str, credit_card: str) -> str:
     return subprocess.check_output([validator, credit_card]).decode('utf-8').strip()
